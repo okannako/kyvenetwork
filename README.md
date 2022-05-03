@@ -16,6 +16,7 @@
 ```
 sudo apt update && apt install unzip
 mkdir -p /root/kyve
+sudo apt-get install -y unzip
 cd /root/kyve && wget https://github.com/kyve-org/zilliqa/releases/tag/v0.0.0/kyve-zilliqa-linux.zip && unzip kyve-zilliqa-linux.zip
 cd /root/kyve && ./kyve-zilliqa-linux --version
 chmod +x kyve-zilliqa-linux
