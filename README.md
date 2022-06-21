@@ -31,7 +31,7 @@ After=network-online.target
 [Service]
 User=root
 WorkingDirectory=/root/kyve/
-ExecStart=/root/kyve/kyve-zilliqa-linux -m "mnemonic" -k /root/kyve/arweave.json -p 5 -v -s 300
+ExecStart=/root/kyve/kyve-linux -m "mnemonic" -k /root/kyve/arweave.json -p 5 -v -s 300
 Restart=on-failure
 RestartSec=3
 LimitNOFILE=65535
