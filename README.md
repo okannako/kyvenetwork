@@ -14,7 +14,7 @@
 
 # Kurulum Adımları
 ```
-sudo apt update && apt install unzip
+sudo apt update && apt install openjdk-11-jdk-headless
 mkdir -p /root/kyve
 cd /root/kyve && wget https://github.com/kyve-org/zilliqa/releases/download/v0.1.0/kyve-linux.zip && jar xvf kyve-linux.zip
 chmod +x kyve-linux
